@@ -1,0 +1,75 @@
+body {
+    background: url("../../img/cielo.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#header h1 {
+    background-color: #1C4D91;
+}
+
+#menu ul li:hover {
+    background-color: #1C4D91;
+    transition: all 500ms;
+}
+
+#posts .post .comentarios {
+    background-color: #1C4D91;
+}
+
+#formulario #ingresar {
+    background-color: #1C4D91;
+}
+
+#formulario #name:focus,
+#formulario #password:focus,
+#formulario #email:focus {
+    outline: none;
+    border: 2px dotted #417bcc;
+    box-shadow: 0px 0px 3px #1C4D91 inset;
+}
+
+#wowslider-container1 .ws_bullets a>span {
+    background: #1C4D91;
+}
+
+#wowslider-container1 .ws_bullets a.ws_overbull>span,
+#wowslider-container1 .ws_bullets a.ws_selbull>span {
+    background: #417bcc;
+}
+
+#wowslider-container1 .ws_playpause {
+    background: #1C4D91;
+}
+
+#wowslider-container1 a.ws_next>span,
+#wowslider-container1 a.ws_prev>span {
+    background: #1C4D91;
+}
+
+#wowslider-container1 .ws-title div,
+#wowslider-container1 .ws-title span {
+    background-color: #1C4D91;
+}
+.ui-accordion-header-active{
+    background-color: #1C4D91;
+}
+
+#about #logout{
+    color: #1C4D91;
+}
+#about #logout:hover{
+    color: #417bcc;
+}
+#reloj{
+    color: #417bcc;
+}
+.form-items:focus{
+    outline: none;
+    border: 2px dotted #417bcc;
+    box-shadow: 0px 0px 3px #1C4D91 inset;
+}
+#form-contacto #enviar {
+    background-color: #1C4D91;
+    transition: all 500ms;
+}

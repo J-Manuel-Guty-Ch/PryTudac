@@ -1,0 +1,75 @@
+body {
+    background: url("../../img/hojas.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#header h1 {
+    background-color: #18613A;
+}
+
+#menu ul li:hover {
+    background-color: #18613A;
+    transition: all 500ms;
+}
+
+#posts .post .comentarios {
+    background-color: #18613A;
+}
+
+#formulario #ingresar {
+    background-color: #18613A;
+}
+
+#formulario #name:focus,
+#formulario #password:focus,
+#formulario #email:focus {
+    outline: none;
+    border: 2px dotted #18613A;
+    box-shadow: 0px 0px 3px #133322 inset;
+}
+
+#wowslider-container1 .ws_bullets a>span {
+    background: #18613A;
+}
+
+#wowslider-container1 .ws_bullets a.ws_overbull>span,
+#wowslider-container1 .ws_bullets a.ws_selbull>span {
+    background: #45d186;
+}
+
+#wowslider-container1 .ws_playpause {
+    background: #18613A;
+}
+
+#wowslider-container1 a.ws_next>span,
+#wowslider-container1 a.ws_prev>span {
+    background: #18613A;
+}
+
+#wowslider-container1 .ws-title div,
+#wowslider-container1 .ws-title span {
+    background-color: #18613A;
+}
+.ui-accordion-header-active{
+    background-color: #18613A;
+}
+#about #logout{
+    color: #18613A;
+}
+#about #logout:hover{
+    color: #45d186;
+}
+#reloj{
+    color: #45d186;
+}
+
+.form-items:focus{
+    outline: none;
+    border: 2px dotted #18613A;
+    box-shadow: 0px 0px 3px #133322 inset;
+}
+#form-contacto #enviar {
+    background-color: #18613A;
+    transition: all 500ms;
+}
