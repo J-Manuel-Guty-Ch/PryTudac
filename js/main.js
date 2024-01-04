@@ -11,12 +11,12 @@ $(document).ready(function() {
             content: "Se realiza la apertura de comedor en nuestros ambientes para niños y adolecentes de bajos recursos en el horario de almurzo, realizando un aporte minimo para su atencion.  Los requisitos son:  una fotocopia de certificado de nacimiento o de cedula de identidad del benificiario como del tutor acargo."
         },
         {
-            title: "TALLER DESCUBRE TU TALENTO",
+            title: "DESCUBRE TU TALENTO",
             date: "Publicado el " + moment().format("dddd D") + " de " + moment().format("MMMM") + " del año " + moment().format("YYYY"),
             content: "Se hace el lanzamiento del taller descubre tu talento para niños y adolecentes que quieran descubrir y fortalecer su talento, en el area de musica, razonamiento y deportes, contamos con todas las medidas de apoyo,  Los requisitos son:  una fotocopia de certificado de nacimiento o de cedula de identidad del benificiario como del tutor acargo."
         },
         {
-            title: "ESCUELA DE FUTSAL INFANTIL",
+            title: "ESCUELA DE FUTSAL",
             date: "Publicado el " + moment().format("dddd D") + " de " + moment().format("MMMM") + " del año " + moment().format("YYYY"),
             content: "Se realiza las inscripciones en el area deportiva Futsal para una mejor estabilidad de defensas en nuestro cuerpo, realizando entrenamientos deportivosdel tacticas y demas, Los requisitos son:  una fotocopia de certificado de nacimiento o de cedula de identidad del benificiario como del tutor acargo."
         },
@@ -32,7 +32,7 @@ $(document).ready(function() {
         <article class="post">
             <h3>${element.title}</h3>
             <span class="fecha-publicado">${element.date}</span>
-            <span class="comentarios">92 Comentarios</span>
+            <span class="comentarios"> 0 Comentarios</span>
             <p>${element.content}</p>
             <a href="#">Leer más...</a>
         </article>
